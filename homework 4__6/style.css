@@ -1,0 +1,33 @@
+.button{
+    border: none;
+    background: linear-gradient(to right, #000000 0%, #ff0303 51%, #040815 100%);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.87rem;
+    margin: 5px;
+    padding: 0.6rem 1.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-size: 200% auto;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover{
+    background-position: right center;
+}
+
+
+.blog-item:hover .blog-item__info{
+    background-color: rgb(42, 39, 39);
+}
+.blog-item__image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+.blog-item__image{
+    overflow: hidden;
+}
+.blog-item:hover .blog-item__image img{
+    transform: scale(1.1);
+}
